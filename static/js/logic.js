@@ -1,8 +1,3 @@
-#map {
-  height: 600px;
-  width: 100%;
-}
-
 const url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
 d3.json(url).then(function(data) {
